@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#mainContainer {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#mainNav {
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* #top-nav {
+    display: block;
+} */
+
+#top-nav li {
+  list-style-type: none;
+  display: inline-block;
+  
+}
+
+.button1 {
+  /* Green */
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 110px;
+  color: black;
+  background-color: white;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: black;
+  border:0; 
+}
+
+.button1 a:visited {
+  color: black;
+}
+
+#iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.mission {
+  padding:80px;
+  box-sizing: border-box;
+  flex: 0 50%;
+  text-align: center;
+}
+
+.mission > img {
+  width: 100%;
+  max-width: 200px;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+.mission > h2 {
+  padding: 8px;
+}
+.mission > div {
+  padding: 8px;
+}
+
+/* #top-nav li a{
+  text-decoration:none;
+  transition: 0.3s;
+} */
+.button1:hover {
+  background-color: #f6c065;
+  transition: 0.3s;
+}
+
+.button1:hover a {
+  color: white;
+  transition: 0.3s;
+}
+
+.homeDiv {
+  background-image: url('./img/homephoto.png');
+  height: 500px;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#overlayDiv{
+  background: linear-gradient(0deg,#00000088 30%,#ffffff44 100%);
+  position:absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  height: 500px;
+  width: 100%;
+}
+#outerHomeDiv{
+  position: relative;
+}
+.sct-logo {
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: 900;
+
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  /* text-align: center; */
+}
+
+#Footer1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  background-color: #aaaaaa;
+  background: linear-gradient(0deg,#00000088 30%,#ffffff44 100%);
+}
+#Footer1 img{
+  width: 20px;
+  max-width: 20px;
+  margin-left:auto;
+  margin-right: auto;
+ /* border-radius: 80%; */
+}
+.footerIcon{
+  padding:10px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.line{
+  width: 99%;
+  height: 47px;
+  border-top: 1px solid black;
+  position: relative;
+
+  } 
+  .info {
+    position: relative;
+    text-align: center;
+  }
+
+
+  .card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .cardHeader {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+  }
+  
+ 
