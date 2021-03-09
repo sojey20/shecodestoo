@@ -9,7 +9,7 @@ function nextTestimony() {
 }
 
 function prevTestimony() { 
-  if (--currentTestimony < 0) currentTestimony = numTestmonies - 1;
+  if (--currentTestimony < 0) currentTestimony = numTestimonies - 1;
   showTestimony(currentTestimony); 
 }
 
@@ -20,6 +20,7 @@ function showTestimony(showIndex) {
   if (showIndex < 0) showIndex = slides.length - 1;
   for (var i = 0; i < slides.length; ++i) {
     slides[i].style.display = "none";
+    slides[i].className = "testimony";
   }
   slides[showIndex].style.display = "block";
   slides[showIndex].className += " activeTestimony";
