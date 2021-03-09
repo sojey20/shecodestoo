@@ -175,4 +175,11 @@
     font-size: 40px;
   }
   
- 
+ .teamCol{
+  padding:10px;
+  /* box-sizing: border-box; */
+  text-align: center;
+ }
+ .teamRow{
+ display: flex;
+ }
