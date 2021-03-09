@@ -176,10 +176,28 @@
   }
   
  .teamCol{
-  padding:10px;
-  /* box-sizing: border-box; */
-  text-align: center;
+  background-color: #f6c065;
+  margin: 20px;
+  padding: 20px;
+
  }
+ .teamCol:hover{
+   background-color:#aaaaaa;
+   transition: 0.9s;
+ }
+ .teamCol img{
+ width: 190px;
+ }
+ .teamCol h4{
+   margin-top: 10px;
+ text-align: center;
+ color:white;
+}
  .teamRow{
  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
  }
+#mainContainer h2{
+  margin-top: 30px;
+}
