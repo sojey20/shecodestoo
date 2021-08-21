@@ -1,94 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Courses</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <div id="mainNav">
-        <ul id="top-nav">
-            <li>
-                <button class="button1"> <a href="index.html">Home</a></button>
-            </li>
-            <li>
-                <button class="button1"> <a href="courses.html">Courses</a></a></button>
-            </li>
-            <li>
-                <button class="button1"><a href="#">Learning Path</a></button>
-            </li>
-            <li>
-                <button class="button1"><a href="#">Contact</a></button>
-            </li>
-        </ul>
-    </div>
-
-    <div id="outerHomeDiv">
-        <div id="overlayDiv">
-        </div>
-        <div class="homeDiv">
-        </div>
-
-        <div class="sct-logo">
-            <h1 style="font-family:'Roboto Slab', serif;">She Codes Too;</h1>
-            <h3 style="color:#f6c065; padding-left: 30px;">Empower Women to Code</h3>
-        </div>
-    </div>
-    <div id="mainContainer">
-
-        <h1>Our Coding Workshops</h1>
-        <div class="card">
-            <div class="cardHeader">
-                <h1>HTML & CSS</h1>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+                <h4>She Codes Too;</h4>
             </div>
-
-            <div class="cardContainer">
-                <p>3 weeks course</p>
+            <div class="links">
+                <a href="#" class="mainlink">Courses</a>
+                <a href="index.html">Home</a>
+                <a href="#" class="responsive-link2">Learning Path</a>
+                <a href="#" class="responsive-link">Contact</a>
             </div>
         </div>
-        <div class="card">
-            <div class="cardHeader">
-                <h1>Introduction to JavaScript</h1>
-            </div>
-
-            <div class="cardContainer">
-                <p>2 workshops for begginer level to advanced level</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="cardHeader">
-                <h1>GitHub Learning </h1>
-            </div>
-
-            <div class="cardContainer">
-                <p>Workshop for begginer</p>
+        <div id="outerHomeDiv">
+            <div id="overlayDiv"></div>
+            <div class="homeDiv"></div>
+    
+            <div class="sct-logo">
+                <h1>She Codes Too;</h1>
+                <h3 style="color:#fbc84f ; padding-left: 30px;">Empower Women to Code</h3>
             </div>
         </div>
-    </div>
-    <div id="Footer1">
-        <div class="footerIcon"> <a href="#"> <img src="./img/facebook.svg"></div></a>
-        <div class="footerIcon"> <a href="#"> <img src="./img/instagram.svg"></div></a>
-        <div class="footerIcon"> <a href="#"> <img src="./img/youtube.svg"></div></a>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script> -->
 
+        <div class="cards-section">
+            <h1 class="title">Our Coding <span style="color: #03989e;">Workshops</span></h1>
+            <div class="card-group">
+                <div class="card">
+                  <div class="card-img-top">
+                      <h1>Html & Css</h1>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Html & Css Course</h5>
+                    <p class="card-text">3 weeks course.<br> Come and join US!</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                        <a href="#">Click here to JOIN</a>
+                    </small>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-top yellow">
+                        <h1>Introduction to JavaScript</h1>
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript Course</h5>
+                    <p class="card-text">2 workshops for begginer level to advanced level.<br> Come and join US!</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                        <a href="#">Click here to JOIN</a>
+                    </small>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-top">
+                        <h1>GitHub Learning</h1>
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title">GitHub Course</h5>
+                    <p class="card-text">Workshop for begginer.<br> Come and join US!</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">The course is over ☹️</small>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <!--footer-->
+                <ul class="social_footer_ul">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://youtube.com/channel/UCB_7KuYXxvnGtyn-pOlD1Yg"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://instagram.com/she.codes.too.iq?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto: She.codes.too.iq@gmail.com"><i class="far fa-envelope"></i></a></li>
+                </ul>
+                <div class="Copyright">
+                    <p class="text-center" style="color: white;">Copyright @2021 | Designed For <a href="index.html" style="text-decoration: none;">She Codes Too;</a> By <a href="mailto: sajaalshather@gmail.com" style="text-decoration: none;">Saja Ali</a></p>
+                </div>
+                <!--footer-->
+                </div>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
-
 </html>
