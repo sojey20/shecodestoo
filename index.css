@@ -215,3 +215,51 @@
 #mainContainer h2{
   margin-top: 30px;
 }
+
+
+/*footer*/
+
+footer 
+{ 
+    width:100%; 
+    background-color:#263238; 
+    padding: 10px 0px 3px 0px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.social_footer_ul 
+{ 
+    display:table; 
+    margin:15px auto 0 auto; 
+    list-style-type:none;  
+}
+
+.social_footer_ul li 
+{ 
+    padding-left:20px; 
+    padding-top: 1.8rem; 
+    float:left; 
+}
+
+.social_footer_ul li a 
+{ 
+    
+    color:#CCC; 
+    border:1px solid #CCC; 
+    padding: 10px;
+    border-radius:50%;
+}
+
+.social_footer_ul li i 
+{  
+    width: 28px; 
+    height: 28px; 
+    text-align:center;
+    font-size: 1.6rem;
+}
+
+.Copyright
+{
+    margin-top: 2rem;
+}
