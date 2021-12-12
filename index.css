@@ -323,7 +323,7 @@
 /* Cards section */
 
 .card-group{
-  display: flex;
+  display: inline-flex !important;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5px;
@@ -333,6 +333,11 @@
   {
       padding: 7rem 7rem 7rem 8rem;
       margin-bottom: 5rem;
+  }
+
+  .width
+  {
+      width: 405px !important;
   }
 
   .title
@@ -361,7 +366,7 @@
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.295);
     margin-right: 1rem;
     margin-left: 10px;
-    flex: 1 1 160px;
+    flex: 1 30px;
     margin-right: 10px;
 
   }
@@ -438,9 +443,19 @@ footer
 { 
     width:100%; 
     background-color:#263238; 
-    padding: 10px 0px 3px 0px;
+    padding: 1px 0px 35px 0px;
     font-size: 1.3rem;
     letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title
+{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
 .social_footer_ul 
@@ -516,6 +531,8 @@ footer
 #about-p{
   text-align: justify;
 }
+
+
 /* Responsive */
 
 @media screen and (max-width: 950px) 
